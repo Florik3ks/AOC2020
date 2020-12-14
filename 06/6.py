@@ -24,5 +24,5 @@ def solve2(data):
         c += len(questions)
     return c
 
-data = open("6/input.txt").read().split("\n\n")
+data = open("06/input.txt").read().split("\n\n")
 print(solve2(data))

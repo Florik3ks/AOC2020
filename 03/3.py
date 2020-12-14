@@ -23,5 +23,5 @@ def solve2(data):
         result = result * c
     return result
 
-data = open("3/input.txt").read().split("\n")
+data = open("03/input.txt").read().split("\n")
 print(solve2(data))

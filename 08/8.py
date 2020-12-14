@@ -51,5 +51,5 @@ def solve2(data):
 
     return None
 
-data = open("8/input.txt").read().split("\n")
+data = open("08/input.txt").read().split("\n")
 print(solve2(data))

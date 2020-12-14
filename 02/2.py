@@ -35,6 +35,6 @@ def solve2(data):
     return valid
 
 
-data = open("2/input.txt").read().split("\n")
+data = open("02/input.txt").read().split("\n")
 
 print(solve2(data))

@@ -77,5 +77,5 @@ def solve2(data):
     return valid
 
 
-data = open("4/input.txt").read().split("\n\n")
+data = open("04/input.txt").read().split("\n\n")
 print(solve2(data))

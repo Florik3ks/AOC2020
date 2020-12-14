@@ -13,6 +13,6 @@ def solve2(data):
                     if int(num) + int(num2) + int(num3) == 2020:
                         return int(num) * int(num2) * int(num3)
                         
-data = open("1/input.txt").read().split("\n")
+data = open("01/input.txt").read().split("\n")
 print(solve2(data))
                     
